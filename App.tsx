@@ -40,14 +40,14 @@ export default function App() {
     <div className="min-h-screen bg-gray-50 font-sans">
       
       {/* Header */}
-      <header className="bg-brand-900 text-white shadow-md">
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold tracking-tight">FCoM Research Opportunities</h1>
-          <p className="mt-2 text-brand-100 text-lg">
-            Connect with faculty mentors and explore current research projects.
-          </p>
-        </div>
-      </header>
+  <header className="bg-brand-900 text-white shadow-md">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <h1 className="text-3xl font-bold tracking-tight">FCoM Research Opportunities</h1>
+      <p className="mt-2 text-brand-100 text-lg">
+        A centralized hub where medical students can explore active research projects across the Frist College of Medicine and partner institutions to connect with faculty mentors. This database highlights current opportunities, supports equitable access to research experiences, and promotes collaboration between students and faculty engaged in scholarly work.
+      </p>
+    </div>
+  </header>
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         
