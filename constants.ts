@@ -334,4 +334,4 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     startTerm: "Summer 2026",
     applicationDate: "Apply by 1/30/2026"
   }
-];
+]
