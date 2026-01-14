@@ -129,7 +129,7 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
     studentCount: "5-10",
     timeframe: ["Academic Year (Ongoing)"],
     startTerm: "Spring 2026"
-  }
+  },
   {
     id: "davis-2026-1",
     piLastName: "Davis",
