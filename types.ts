@@ -13,4 +13,5 @@ export interface ResearchOpportunity {
   studentCount: string;
   timeframe: string[]; // Parsed from the CSV string
   startTerm: string;
+  applicationDate?: string; // Add this line
 }
