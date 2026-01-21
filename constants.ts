@@ -3,6 +3,57 @@ import { ResearchOpportunity } from './types';
 // Data parsed directly from the CSV provided in the prompt
 export const RESEARCH_DATA: ResearchOpportunity[] = [
   {
+    id: "qub-2026",
+    piLastName: "Queen's University",
+    piFirstName: "Belfast",
+    email: "cemsummerstudents@qub.ac.uk",
+    title: "Cancer Clinical Translational Research Program",
+    degree: "Program",
+    department: "Oncology",
+    researchFocus: "Translational Oncology, Precision Medicine",
+    keywords: "Precision medicine, immuno-oncology, targeted therapies, biomarker-driven clinical trials",
+    programDescription: "Focus: Translational oncology research bridging lab discoveries with clinical applications. Research Areas: Precision medicine, immuno-oncology, targeted therapies, and biomarker-driven clinical trials.",
+    projectOverview: "Work alongside leading cancer researchers in hands-on, laboratory-based projects. Develop practical research skills in biomarker discovery, cancer biology, and molecular pathology. Engage in networking opportunities and mentorship from top oncology researchers. Present research findings through reports and poster presentations.",
+    studentCount: "5",
+    timeframe: ["Summer Research Elective"],
+    startTerm: "Summer 2026",
+    applicationDate: "Apply by 1/31/2026"
+  },
+  {
+    id: "hca-tristar-2026",
+    piLastName: "Darrell Hunt",
+    piFirstName: "HCA Tristar",
+    email: "Jordan.Rahm@hcahealthcare.com",
+    title: "MD (with Dr. Jordan Rahm)",
+    degree: "MD",
+    department: "Community in Medicine",
+    researchFocus: "Health Disparities, Community Health",
+    keywords: "Health disparities, access to care, community-based healthcare solutions",
+    programDescription: "Focus: The intersection of medicine and community engagement. Research Areas: Health disparities, access to care, community-based healthcare solutions.",
+    projectOverview: "Conduct research on barriers to healthcare access in underserved populations. Collaborate with local health organizations to develop community-driven interventions. Engage with patients and healthcare providers to assess the impact of community health initiatives. Work directly with Dr. Darrell Hunt and Dr. Jordan Rahm on real-world projects addressing healthcare inequities.",
+    studentCount: "2-3",
+    timeframe: ["Summer Research Elective"],
+    startTerm: "Summer 2026",
+    applicationDate: "Apply by 1/31/2026"
+  },
+  {
+    id: "toa-snowden-2026",
+    piLastName: "Ryan Snowden",
+    piFirstName: "TN Orthopaedic Alliance",
+    email: "", // No email provided in text, leaving blank
+    title: "MD",
+    degree: "MD",
+    department: "Orthopedics",
+    researchFocus: "Orthopedic Surgery, Clinical Outcomes",
+    keywords: "Post-operative complications, pre-operative health factors, spinal fusion outcomes, lumbar infections",
+    programDescription: "Focus: Advancing orthopedic research through clinical studies. Research Areas: Post-operative complications, pre-operative health factors, spinal fusion outcomes.",
+    projectOverview: "Investigate the relationship between post-operative lumbar infections and hospital readmission rates. Assess the impact of pre-operative nutrition on surgical outcomes. Conduct a retrospective study on fusion rates of two different bone grafts in multi-level lumbar spine fusions.",
+    studentCount: "1",
+    timeframe: ["Summer Research Elective"],
+    startTerm: "Summer 2026",
+    applicationDate: "Apply by 1/31/2026"
+  },
+  {
     id: "kornu-2025",
     piLastName: "Kornu",
     piFirstName: "Kimbell",
