@@ -2,6 +2,23 @@ import { ResearchOpportunity } from './types';
 
 // Data parsed directly from the CSV provided in the prompt
 export const RESEARCH_DATA: ResearchOpportunity[] = [
+    {
+    id: "spri-huard-2026",
+    piLastName: "Huard",
+    piFirstName: "Johnny",
+    email: "douglas.slakey@belmont.edu",
+    title: "Chief Scientific Officer (CSO) and Director",
+    degree: "PhD", 
+    department: "Center for Regenerative Sports Medicine (SPRI)",
+    researchFocus: "Regenerative Medicine, Tissue Engineering, Aging",
+    keywords: "Aging, muscle-derived stem cells, MDSCs, gene therapy, CRISPR-Cas9, senolytics, biologics, tissue repair",
+    programDescription: "The Center for Regenerative Sports Medicine at the Steadman Philippon Research Institute (SPRI) focuses on developing biological medicine approaches to improve tissue repair after injury, disease, and aging.",
+    projectOverview: "Investigate the use of adult stem cells as a source for paracrine factors to alleviate phenotypic changes associated with natural and accelerated aging. The project utilizes a variety of advanced technologies including biologics (MDSCs, ADSCs), regenerative medicine approaches (gene therapy, CRISPR-Cas9), therapeutics (senolytic and senomorphic drugs), and animal modeling.",
+    studentCount: "1",
+    timeframe: ["Summer Research Elective"],
+    startTerm: "Summer 2026",
+    applicationDate: "Apply by 1/31/2026"
+  },
   {
     id: "qub-2026",
     piLastName: "Queen's University",
@@ -21,17 +38,17 @@ export const RESEARCH_DATA: ResearchOpportunity[] = [
   },
   {
     id: "hca-tristar-2026",
-    piLastName: "Darrell Hunt",
-    piFirstName: "HCA Tristar",
-    email: "Jordan.Rahm@hcahealthcare.com",
-    title: "MD (with Dr. Jordan Rahm)",
+    piLastName: "Hunt",
+    piFirstName: "Darrell",
+    email: "Bailey.Segura@hcahealthcare.com", // Email removed as requested; contacts are listed in the overview
+    title: "MD",
     degree: "MD",
-    department: "Community in Medicine",
-    researchFocus: "Health Disparities, Community Health",
-    keywords: "Health disparities, access to care, community-based healthcare solutions",
-    programDescription: "Focus: The intersection of medicine and community engagement. Research Areas: Health disparities, access to care, community-based healthcare solutions.",
-    projectOverview: "Conduct research on barriers to healthcare access in underserved populations. Collaborate with local health organizations to develop community-driven interventions. Engage with patients and healthcare providers to assess the impact of community health initiatives. Work directly with Dr. Darrell Hunt and Dr. Jordan Rahm on real-world projects addressing healthcare inequities.",
-    studentCount: "2-3",
+    department: "Trauma Services",
+    researchFocus: "Trauma Care, Surgery, Outcomes Research",
+    keywords: "Trauma, Surgery, Critical Care, HCA TriStar PASS, Clinical Observation",
+    programDescription: "HCA TriStar PASS Program",
+    projectOverview: "Medical students will have the opportunity to immerse themselves in the fast‑paced world of trauma care while contributing to research aimed at advancing the field. This internship places students at the heart of a level I trauma hospital where they will work with experienced surgeons on projects designed to improve outcomes for critically injured patients. This program is ideal for students looking to blend research with clinical observation.\n\nPoints of contact: Dr. Darrell Hunt and Bailey Segura.",
+    studentCount: "1",
     timeframe: ["Summer Research Elective"],
     startTerm: "Summer 2026",
     applicationDate: "Apply by 1/31/2026"
