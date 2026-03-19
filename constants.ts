@@ -2,6 +2,22 @@ import { ResearchOpportunity } from './types';
 
 // Data parsed directly from the CSV provided in the prompt
 export const RESEARCH_DATA: ResearchOpportunity[] = [
+  {
+    id: "quagga-nelson-2026",
+    piLastName: "Nelson",
+    piFirstName: "Joey",
+    email: "joey@quaggahealth.com", 
+    title: "Founder",
+    degree: "PhD",
+    department: "Quagga Health",
+    researchFocus: "Diagnostic Odyssey, Preventative Medicine, Hereditary Metabolic Disease",
+    keywords: "Workplace Intervention, Health Technology, Rare disease, Primary Care, AI, Precision Medicine, Data Analysis, Genetic Counseling, Medication Adherence",
+    programDescription: "Work in a startup environment to tackle one of today's leading healthcare challenges. Diagnostic inefficiency accounts for $870B per year and 80% of all harm. Quagga Health uses advanced diagnostic engines to identify those at risk of inherited metabolic diseases and partners with provider systems and benefits programs on life-saving interventions, including testing and genetic counseling. Be mentored directly by Quagga health's founder and join our innovative team to reduce the diagnostic odyssey for uncommon diseases from its typical 7-10 years to months, improving patient outcomes and cutting costs for both provider networks and payors. Engage in practical research as well as networking opportunities.",
+    projectOverview: "Depending on student expertise and interest, opportunities exist to use AI modeling techniques on large datasets, test levers of engagement efficiency in a clinical or employer benefits wellness center setting, or employ models in new populations. Research will focus on inherited metabolic disorders which result in catastrophic events such as liver and lung failure, massive coronary events, and thrombosis or pulmonary embolism, if undiagnosed and untreated. This opportunity is ideal for students wanting to blend medical or data analysis training with exposure to the Nashville health technology startup ecosystem.",
+    studentCount: "1-2",
+    timeframe: ["Summer Research Elective", "Academic Year (Ongoing)"],
+    startTerm: "Summer 2026"
+  },
     {
     id: "spri-huard-2026",
     piLastName: "Huard",
