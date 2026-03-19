@@ -139,7 +139,7 @@ export default function App() {
                        </div>
                     </td>
                     <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500 align-top">
-                      <span className="font-medium text-gray-900">{opp.applicationDate || 'Open 12/15/2025'}</span>
+                      <span className="font-medium text-gray-900">{opp.applicationDate || 'Open 05/15/2026'}</span>
                     </td>
                   </tr>
                 ))
@@ -165,7 +165,7 @@ export default function App() {
                     <span className="text-xs text-gray-500">{opp.degree}</span>
                   </div>
                    <div className="text-xs font-semibold bg-gray-100 text-gray-800 px-2 py-1 rounded">
-                      {opp.applicationDate || 'Open 12/15/2025'}
+                      {opp.applicationDate || 'Open 05/15/2026'}
                    </div>
                 </div>
                 
